@@ -9,6 +9,8 @@ import '../features/profile/profile_screen.dart';
 import '../features/profile/acc_manager/profile_information_screen.dart';
 import '../features/settings/settings_screen.dart';
 import '../features/settings/change_password.dart';
+import '../features/hydration/water_reminder_screen.dart';
+import '../features/reports/weekly_report_screen.dart';
 
 final Map<String, WidgetBuilder> appRoutes = {
   '/onboarding_ai': (context) => OnboardingScreen(),
@@ -21,4 +23,6 @@ final Map<String, WidgetBuilder> appRoutes = {
   '/profile_info': (context) => ProfileEditorScreen(),
   '/settings': (context) => SettingsPage(),
   '/change_password': (context) => ChangePasswordScreen(),
+  '/water_reminder': (context) => WaterReminderScreen(),
+  '/weekly_report': (context) => HealthReportScreen(),
 };
