@@ -58,4 +58,3 @@ git diff 29e7a19 207f0ad -- lib
 - Báo cáo, lượng nước, gợi ý AI và dữ liệu quét phần lớn là nội dung mẫu. Nút lưu nhắc uống nước chưa lưu cài đặt.
 - Một số lối tắt trên trang chủ gọi route chưa khai báo như `/ai_scan`, `/journal`, `/statistics`, `/suggest_meal`, `/qr_scan`, `/compare`; các màn quét và so sánh trong giai đoạn 6 chưa được nối đầy đủ vào luồng chính.
 - Để biến ứng dụng thành sản phẩm hoạt động, bước kế tiếp là thiết kế model dữ liệu, lưu cục bộ hoặc backend, tính toán chỉ số từ nhật ký thực, kết nối máy quét/camera và sửa các route còn thiếu. Những phần này **chưa có trong 6 ZIP**.
-
